@@ -18,4 +18,6 @@ const Loader = {
   }
 }
 
-Loader.loadImages('foobar')
+Loader.loadImages('https://www.fullstackacademy.com/images/fa-logo.png', (loadedImages) => {
+  // All images finished loading.
+})
