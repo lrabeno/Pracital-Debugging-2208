@@ -1,7 +1,8 @@
 const reallyAwesomeObject = {
-  moreAwesomeProperty: [{
-    soSoSoCool: 'Tis great!',
-  },
-    veryGreat: 'Good time!'
-  }],
-}
+  moreAwesomeProperty: [
+    {
+      soSoSoCool: "Tis great!",
+      veryGreat: "Good time!",
+    },
+  ],
+};
