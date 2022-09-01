@@ -1,3 +1,3 @@
-const flipped = true;
-const flipIt = () => flipped = !flipped;
+let flipped = true;
+const flipIt = () => (flipped = !flipped);
 flipIt();
