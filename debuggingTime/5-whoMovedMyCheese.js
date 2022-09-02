@@ -10,13 +10,11 @@ let ingredients = {
   },
 };
 
-console.log(ingredients);
-
-function sliceCheese(sandwich, cheese) {
-  return "1 slice of" + cheese;
+function sliceCheese(cheese) {
+  return "1 slice of" + cheese.kind;
 }
 
-function makeASandwich() {
+function makeASandwich(ingredients) {
   let sandwich = [];
   sandwich.push(ingredients.bread.kind + " bread");
   sandwich.push(sliceCheese(ingredients.cheese));
@@ -26,4 +24,4 @@ function makeASandwich() {
   return sandwich;
 }
 
-makeASandwich();
+makeASandwich(ingredients);
